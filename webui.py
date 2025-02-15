@@ -49,6 +49,7 @@ def webui():
     from modules.shared_cmd_options import cmd_opts
 
     launch_api = cmd_opts.api
+    share = True
     initialize.initialize()
 
     from modules import shared, ui_tempdir, script_callbacks, ui, progress, ui_extra_networks
