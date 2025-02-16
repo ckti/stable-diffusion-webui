@@ -2,6 +2,9 @@ GitPython
 Pillow
 accelerate
 
+xformers
+ipykernel
+
 blendmodes
 clean-fid
 diskcache
@@ -32,5 +35,3 @@ torchdiffeq
 torchsde
 transformers==4.30.2
 pillow-avif-plugin==1.4.3
-xformers
-ipykernel
